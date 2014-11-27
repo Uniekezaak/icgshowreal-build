@@ -1,0 +1,1 @@
+"use strict";function resized(){var a=$(window).width();a>980?($("header nav").addClass("horizontal").removeClass("vertical"),$("header").removeClass("sidebar")):($("header nav").addClass("vertical").removeClass("horizontal"),$("header").addClass("sidebar"))}$(function(){$("#menu").metisMenu(),$(window).resize(function(){resized()}),resized()});
